@@ -11,12 +11,12 @@ switch (process.argv[2]) {
     versionBump.push({
       name: 'bump-frontend',
       command: ` ${runner} version patch && git add package.json package-lock.json`,
-      prefixColor: 'red',
+      prefixColor: 'blue',
     })
     release.push({
       name: 'release:patch',
       command:
-        "changelog -p && git add CHANGELOG.md && git commit -m 'docs: updated CHANGELOG.md' && npm version patch && git push origin && git push origin --tags",
+        "changelog -p && git add CHANGELOG.md && git commit -m 'docs: updated CHANGELOG.md' && git push origin && git push origin --tags",
       prefixColor: 'yellow',
     })
     break
@@ -24,12 +24,12 @@ switch (process.argv[2]) {
     versionBump.push({
       name: 'bump-frontend',
       command: ` ${runner} version minor && git add package.json package-lock.json`,
-      prefixColor: 'red',
+      prefixColor: 'blue',
     })
     release.push({
       name: 'release:minor',
       command:
-        "changelog -m && git add CHANGELOG.md && git commit -m 'docs: updated CHANGELOG.md' && npm version minor && git push origin && git push origin --tags",
+        "changelog -m && git add CHANGELOG.md && git commit -m 'docs: updated CHANGELOG.md' && git push origin && git push origin --tags",
       prefixColor: 'yellow',
     })
     break
@@ -37,12 +37,12 @@ switch (process.argv[2]) {
     versionBump.push({
       name: 'bump-frontend',
       command: ` ${runner} version major && git add package.json package-lock.json`,
-      prefixColor: 'red',
+      prefixColor: 'blue',
     })
     release.push({
       name: 'release:major',
       command:
-        "changelog -M && git add CHANGELOG.md && git commit -m 'docs: updated CHANGELOG.md' && npm version major && git push origin && git push origin --tags",
+        "changelog -M && git add CHANGELOG.md && git commit -m 'docs: updated CHANGELOG.md' && git push origin && git push origin --tags",
       prefixColor: 'yellow',
     })
     break

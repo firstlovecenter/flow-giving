@@ -12,7 +12,7 @@ body.chakra-ui-dark  {
   background-size: cover !important;
 }
 body.chakra-ui-light {
-  /* background: url("./assets/images/bg.jpg") !important; */
+  background: url("./assets/images/bg-light.jpeg") !important;
   height: 100vh !important;
   background-position: center !important;
   background-repeat: no-repeat !important;

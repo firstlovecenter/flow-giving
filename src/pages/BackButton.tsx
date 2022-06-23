@@ -1,12 +1,12 @@
-import { Button } from "@chakra-ui/react"
-import { IoIosArrowBack } from "react-icons/io"
-import { useNavigate, useLocation } from "react-router"
+import { Button } from '@chakra-ui/react'
+import { IoIosArrowBack } from 'react-icons/io'
+import { useNavigate, useLocation } from 'react-router-dom'
 
 const BackButton = () => {
   const navigate = useNavigate()
   const location = useLocation()
 
-  if (location.pathname === "/") {
+  if (location.pathname === '/') {
     return null
   }
 

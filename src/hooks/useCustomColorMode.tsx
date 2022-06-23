@@ -1,8 +1,8 @@
-import { useColorModeValue } from "@chakra-ui/react"
+import { useColorModeValue } from '@chakra-ui/react'
 
 const useCustomColorMode = () => {
-  const bg = useColorModeValue("#e6e9ef", "#2d2e3e")
-  const brand = useColorModeValue("#188287", "#2ad5dc")
+  const bg = useColorModeValue('#e6e9ef', '#2d2e3e')
+  const brand = useColorModeValue('#188287', '#2ad5dc')
   return { bg, brand }
 }
 
