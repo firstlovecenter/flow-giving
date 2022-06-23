@@ -27,18 +27,6 @@ const USA = () => {
                   45777
                 </Text>
               </Text>
-
-              <Text fontWeight="bold">Tithe</Text>
-              <Text marginBottom={5}>
-                Text{' '}
-                <Text as="b" color={brand}>
-                  LCI 200
-                </Text>{' '}
-                to{' '}
-                <Text as="b" color={brand}>
-                  45777
-                </Text>
-              </Text>
             </Box>
           </ChakraBox>
         </VStack>
