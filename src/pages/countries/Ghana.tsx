@@ -23,16 +23,27 @@ const Ghana = () => {
                 MTN
               </Text>
 
-              <Text marginBottom={5}>024 631 8494</Text>
+              <Text marginBottom={2} fontSize="2xl">
+                059 304 0443
+              </Text>
+              <Text fontWeight="bold" color="#fcb900" fontSize="medium">
+                Merchant ID
+              </Text>
+              <Text marginBottom={5} fontSize="medium">
+                5703723
+              </Text>
+
               <Text fontWeight="bold">Bank Account</Text>
-              <Text fontWeight="bold" color="red.500">
+              <Text fontWeight="bold" color="red.500" fontSize="medium">
                 Zenith Bank
               </Text>
-              <Text>First Love Church</Text>
-              <Text fontWeight="bold" color="red.500" fontSize="2xl">
+              <Text fontSize="medium">First Love Church</Text>
+              <Text fontWeight="bold" color="red.500" fontSize="3xl">
                 6010922100
               </Text>
-              <Text marginBottom={5}>North Industrial Area Branch</Text>
+              <Text marginBottom={5} fontSize="medium">
+                North Industrial Area Branch
+              </Text>
             </Box>
           </ChakraBox>
         </VStack>

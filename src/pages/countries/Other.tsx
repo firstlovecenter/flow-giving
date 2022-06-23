@@ -1,7 +1,17 @@
 import React from 'react'
-import { Box, Grid, Heading, Text, VStack } from '@chakra-ui/react'
+import {
+  Box,
+  Grid,
+  Heading,
+  HStack,
+  Image,
+  Text,
+  VStack,
+} from '@chakra-ui/react'
 import ChakraBox from 'components/ChakraBox'
 import useCustomColorMode from 'hooks/useCustomColorMode'
+import SendWaveLogo from 'assets/images/SendWaveLogo'
+import TapTapLogo from 'assets/images/taptap-logo.png'
 
 const Other = () => {
   const { brand, bg } = useCustomColorMode()
@@ -19,7 +29,13 @@ const Other = () => {
               <Text color={brand} fontWeight="bold">
                 SendWave/TapTap Send
               </Text>
-              <Text marginBottom={5}>024 631 8494</Text>
+              <Text fontSize="2xl" fontWeight="bold" marginBottom={5}>
+                024 631 8494
+              </Text>
+              <HStack justifyContent="space-around">
+                <SendWaveLogo />
+                <Image src={TapTapLogo} height={10} />
+              </HStack>
             </Box>
           </ChakraBox>
         </VStack>

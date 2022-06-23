@@ -21,12 +21,12 @@ const UK = () => {
           <Text>
             Please use this medium{' '}
             <Text as="b" color={brand}>
-              ONLY
+              ONLY{' '}
             </Text>
             if you are paying from a UK account.
           </Text>
           <Text>
-            Make sure to include the reference
+            Make sure to include the reference{' '}
             <Text as="b" color={brand}>
               Flow
             </Text>
