@@ -30,7 +30,7 @@ const Other = () => {
                 SendWave/TapTap Send
               </Text>
               <Text fontSize="2xl" fontWeight="bold" marginBottom={5}>
-                024 631 8494
+                (+233) 59 304 0443
               </Text>
               <HStack justifyContent="space-around">
                 <SendWaveLogo />
