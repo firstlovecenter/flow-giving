@@ -10,7 +10,7 @@ switch (process.argv[2]) {
   case 'patch':
     versionBump.push({
       name: 'bump-frontend',
-      command: ` ${runner} version patch && git add package.json package-lock.json`,
+      command: `${runner} version patch && git add package.json package-lock.json`,
       prefixColor: 'blue',
     })
     release.push({
@@ -23,7 +23,7 @@ switch (process.argv[2]) {
   case 'minor':
     versionBump.push({
       name: 'bump-frontend',
-      command: ` ${runner} version minor && git add package.json package-lock.json`,
+      command: `${runner} version minor && git add package.json package-lock.json`,
       prefixColor: 'blue',
     })
     release.push({
@@ -36,7 +36,7 @@ switch (process.argv[2]) {
   case 'major':
     versionBump.push({
       name: 'bump-frontend',
-      command: ` ${runner} version major && git add package.json package-lock.json`,
+      command: `${runner} version major && git add package.json package-lock.json`,
       prefixColor: 'blue',
     })
     release.push({
