@@ -23,7 +23,7 @@ const UK = () => {
             <Text as="b" color={brand}>
               ONLY{' '}
             </Text>
-            if you are paying from a UK account.
+            if you are giving from a UK account.
           </Text>
           <Text>
             Make sure to include the reference{' '}
