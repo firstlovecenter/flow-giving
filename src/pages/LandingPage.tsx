@@ -7,7 +7,7 @@ import UKFlag from 'assets/flags/UKFlag'
 import USAFLag from 'assets/flags/USAFlag'
 import useCustomColorMode from '../hooks/useCustomColorMode'
 
-function LandingPage() {
+const LandingPage = () => {
   const navigate = useNavigate()
   const { bg, brand } = useCustomColorMode()
 

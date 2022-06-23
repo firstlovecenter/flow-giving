@@ -2,7 +2,7 @@ import { Box, Grid, Text, Heading, VStack, Container } from '@chakra-ui/react'
 import ChakraBox from '../../components/ChakraBox'
 import useCustomColorMode from '../../hooks/useCustomColorMode'
 
-function UK() {
+const UK = () => {
   const { bg, brand } = useCustomColorMode()
 
   return (
