@@ -16,11 +16,12 @@ const USA = () => {
               <Text color={brand} fontWeight="bold" marginBottom={5}>
                 Text to Give
               </Text>
-              <Text fontWeight="bold">Offering</Text>
+
+              <Text fontWeight="bold">Flow Offering</Text>
               <Text marginBottom={5}>
                 Text{' '}
                 <Text as="b" color={brand}>
-                  LCI 10{' '}
+                  LCI (Amount) FLOW{' '}
                 </Text>
                 to{' '}
                 <Text as="b" color={brand}>

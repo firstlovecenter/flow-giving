@@ -11,7 +11,7 @@ import {
 import ChakraBox from 'components/ChakraBox'
 import useCustomColorMode from 'hooks/useCustomColorMode'
 import SendWaveLogo from 'assets/images/SendWaveLogo'
-import TapTapLogo from 'assets/images/taptap-logo.png'
+import TapTapLogo from 'assets/images/taptap-logo.webp'
 
 const Other = () => {
   const { brand, bg } = useCustomColorMode()

@@ -5,14 +5,14 @@
 
 
 body.chakra-ui-dark  {
-  background: url("./assets/images/bg.jpg") !important;
+  background: url("./assets/images/bg.webp") !important;
   height: 100vh !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 body.chakra-ui-light {
-  background: url("./assets/images/bg-light.jpeg") !important;
+  background: url("./assets/images/bg-light.webp") !important;
   height: 100vh !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
