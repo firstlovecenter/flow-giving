@@ -30,7 +30,7 @@ const Ghana = () => {
                 Merchant ID
               </Text>
               <Text marginBottom={5} fontSize="medium">
-                5703723
+                570372
               </Text>
 
               <Text fontWeight="bold">Bank Account</Text>
