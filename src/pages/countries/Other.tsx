@@ -32,7 +32,9 @@ const Other = () => {
           </ChakraBox>
         </VStack>
       </Grid>
-      <Text marginTop={150}>God Bless You As You Give!</Text>
+      <Text color={brand} marginTop={50}>
+        God Bless You As You Give!
+      </Text>
     </Box>
   )
 }

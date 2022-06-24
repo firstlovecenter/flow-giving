@@ -4,8 +4,7 @@ const TapTapLogo = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="50"
-      height="190.614"
+      height="50"
       version="1.1"
       viewBox="0 0 400 190.614"
     >

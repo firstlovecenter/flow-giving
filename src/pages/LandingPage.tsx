@@ -101,7 +101,7 @@ const LandingPage = () => {
           </Grid>
         </Center>
       </Grid>
-      <Text color={brand} marginTop={150}>
+      <Text color={brand} marginTop={50}>
         God Bless You As You Give!
       </Text>
     </Box>
