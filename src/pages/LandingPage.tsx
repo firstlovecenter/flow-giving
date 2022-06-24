@@ -15,7 +15,7 @@ const LandingPage = () => {
     <Box textAlign="center" fontSize="xl">
       <Grid minH="50vh" p={3}>
         <Heading fontSize="3xl" textTransform="uppercase" marginTop={20}>
-          Flow Giving
+          Flow Offering
         </Heading>
         <Text marginBottom={20} color={brand}>
           Give a flow offering today!
