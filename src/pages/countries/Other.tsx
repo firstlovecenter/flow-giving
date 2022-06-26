@@ -24,6 +24,10 @@ const Other = () => {
               <Text fontSize="2xl" fontWeight="bold" marginBottom={5}>
                 (+233) 59 304 0443
               </Text>
+              <Text>OR</Text>
+              <Text fontSize="2xl" fontWeight="bold" marginBottom={5}>
+                (+233) 243 172 171
+              </Text>
               <HStack justifyContent="space-around">
                 <SendWaveLogo />
                 <TapTapLogo />
