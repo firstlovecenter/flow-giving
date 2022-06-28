@@ -28,10 +28,28 @@ const Other = () => {
               <Text fontSize="2xl" fontWeight="bold" marginBottom={5}>
                 (+233) 243 172 171
               </Text>
-              <HStack justifyContent="space-around">
+              <HStack marginBottom="10" justifyContent="space-around">
                 <SendWaveLogo />
                 <TapTapLogo />
               </HStack>
+
+              <Text marginTop="20px" fontWeight="bold">
+                Bank Account
+              </Text>
+              <Text fontWeight="bold" color="red.500" fontSize="medium">
+                Zenith Bank
+              </Text>
+              <Text fontSize="medium">First Love Church</Text>
+              <Text fontWeight="bold" color="red.500" fontSize="3xl">
+                6010922100
+              </Text>
+              <Text fontSize="medium">SWIFT Code:</Text>
+              <Text color="red.500" fontWeight="bold" fontSize="2xl">
+                ZEBLGHAC
+              </Text>
+              <Text marginBottom={5} fontSize="medium">
+                North Industrial Area Branch
+              </Text>
             </Box>
           </ChakraBox>
         </VStack>
