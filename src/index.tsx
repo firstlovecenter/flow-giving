@@ -1,9 +1,13 @@
 import { ColorModeScript } from '@chakra-ui/react'
 import * as React from 'react'
 import * as ReactDOM from 'react-dom/client'
+import ReactGA from 'react-ga'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 import * as serviceWorker from './serviceWorker'
+
+ReactGA.initialize('UA-233176789-1')
+ReactGA.pageview(window.location.pathname + window.location.search)
 
 const container = document.getElementById('root')
 if (!container) throw new Error('Failed to find the root element')
