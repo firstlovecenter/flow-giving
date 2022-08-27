@@ -1,9 +1,7 @@
-import React from 'react'
-import { Box, Grid, Heading, HStack, Text, VStack } from '@chakra-ui/react'
+import { Box, Grid, Heading, Text, VStack } from '@chakra-ui/react'
 import ChakraBox from 'components/ChakraBox'
+import PayButton from 'components/PayButton'
 import useCustomColorMode from 'hooks/useCustomColorMode'
-import SendWaveLogo from 'assets/images/SendWaveLogo'
-import TapTapLogo from 'assets/images/TapTapLogo'
 
 const Other = () => {
   const { brand, bg } = useCustomColorMode()
@@ -18,7 +16,14 @@ const Other = () => {
         <VStack align="stretch">
           <ChakraBox animate={{ x: [-40, 0] }}>
             <Box dropShadow="2xl" bg={bg} padding={6} borderRadius={20}>
-              <Text color={brand} fontWeight="bold">
+              <Text fontSize="2xl" fontWeight="bold">
+                Online Giving
+              </Text>
+              <Text marginBottom={2}>Click a button below</Text>
+              <PayButton option="paypal" />
+              <PayButton option="momo" />
+
+              {/* <Text color={brand} fontWeight="bold">
                 SendWave/TapTap Send
               </Text>
               <Text fontSize="2xl" fontWeight="bold" marginBottom={5}>
@@ -31,8 +36,7 @@ const Other = () => {
               <HStack marginBottom="10" justifyContent="space-around">
                 <SendWaveLogo />
                 <TapTapLogo />
-              </HStack>
-
+              </HStack> */}
               <Text marginTop="20px" fontWeight="bold">
                 Bank Account
               </Text>

@@ -1,6 +1,7 @@
 import React from 'react'
-import { Box, Grid, Text, Heading, VStack } from '@chakra-ui/react'
+import { Box, Grid, Text, Heading, VStack, Container } from '@chakra-ui/react'
 import ChakraBox from 'components/ChakraBox'
+import PayButton from 'components/PayButton'
 import useCustomColorMode from '../../hooks/useCustomColorMode'
 
 const Ghana = () => {
@@ -39,6 +40,9 @@ const Ghana = () => {
               <Text marginBottom={5} fontSize="medium">
                 570372
               </Text>
+              <Container padding={5}>
+                <PayButton option="momo" />
+              </Container>
 
               <Text fontWeight="bold">Bank Account</Text>
               <Text fontWeight="bold" color="red.500" fontSize="medium">
