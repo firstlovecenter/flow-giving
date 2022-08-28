@@ -1,5 +1,6 @@
 import { Box, Grid, Text, Heading, VStack } from '@chakra-ui/react'
 import ChakraBox from 'components/ChakraBox'
+import PayButton from 'components/PayButton'
 import useCustomColorMode from 'hooks/useCustomColorMode'
 
 const USA = () => {
@@ -16,7 +17,6 @@ const USA = () => {
               <Text color={brand} fontWeight="bold" marginBottom={5}>
                 Text to Give
               </Text>
-
               <Text fontWeight="bold">Flow Offering</Text>
               <Text marginBottom={5}>
                 Text{' '}
@@ -28,6 +28,8 @@ const USA = () => {
                   45777
                 </Text>
               </Text>
+              <Text marginBottom={5}>OR</Text>
+              <PayButton option="paypal" />
             </Box>
           </ChakraBox>
         </VStack>
