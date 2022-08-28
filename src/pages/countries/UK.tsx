@@ -46,7 +46,7 @@ const UK = () => {
                 <Text as="b">Sort Code: </Text>20-90-74
               </Text>
               <Text>
-                <Text as="b">Account Number: </Text>03793559
+                <Text as="b">Account Number: </Text>13830128
               </Text>
             </Box>
           </ChakraBox>
