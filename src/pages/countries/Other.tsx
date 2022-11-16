@@ -21,7 +21,7 @@ const Other = () => {
               </Text>
               <Text marginBottom={2}>Click a button below</Text>
               <PayButton option="paypal" />
-              <PayButton option="momo" />
+              {/* <PayButton option="momo" /> */}
 
               {/* <Text color={brand} fontWeight="bold">
                 SendWave/TapTap Send
