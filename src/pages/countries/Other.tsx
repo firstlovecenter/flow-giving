@@ -23,6 +23,7 @@ const Other = () => {
               <PayButton option="paypal" />
 
               <Container padding={5}>
+                <Text>To give using Card or Apple Pay click here!</Text>
                 <PayButton option="momo" />
               </Container>
 
