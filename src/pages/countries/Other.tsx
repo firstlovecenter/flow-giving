@@ -1,4 +1,4 @@
-import { Box, Grid, Heading, Text, VStack } from '@chakra-ui/react'
+import { Box, Container, Grid, Heading, Text, VStack } from '@chakra-ui/react'
 import ChakraBox from 'components/ChakraBox'
 import PayButton from 'components/PayButton'
 import useCustomColorMode from 'hooks/useCustomColorMode'
@@ -21,7 +21,10 @@ const Other = () => {
               </Text>
               <Text marginBottom={2}>Click a button below</Text>
               <PayButton option="paypal" />
-              {/* <PayButton option="momo" /> */}
+
+              <Container padding={5}>
+                <PayButton option="momo" />
+              </Container>
 
               {/* <Text color={brand} fontWeight="bold">
                 SendWave/TapTap Send
