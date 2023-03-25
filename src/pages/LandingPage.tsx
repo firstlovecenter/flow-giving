@@ -7,6 +7,7 @@ import UKFlag from 'assets/flags/UKFlag'
 import USAFLag from 'assets/flags/USAFlag'
 import useCustomColorMode from '../hooks/useCustomColorMode'
 import Ghana from './countries/Ghana'
+import FLCGhana from './countries/Ghana-FLC'
 
 const LandingPage = () => {
   const navigate = useNavigate()
@@ -15,6 +16,10 @@ const LandingPage = () => {
   const location = useLocation()
   if (location.pathname === '/ghana') {
     return <Ghana />
+  }
+
+  if (location.pathname === '/flc-ghana') {
+    return <FLCGhana />
   }
 
   return (

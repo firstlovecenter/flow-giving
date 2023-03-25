@@ -6,7 +6,7 @@ const BackButton = () => {
   const navigate = useNavigate()
   const location = useLocation()
 
-  if (location.pathname === '/') {
+  if (location.pathname === '/' || location.pathname === '/flc-ghana') {
     return null
   }
 
