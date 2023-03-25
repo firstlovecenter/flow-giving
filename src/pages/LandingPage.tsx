@@ -1,15 +1,21 @@
 import { Box, Grid, GridItem, Center, Text, Heading } from '@chakra-ui/react'
-import { useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import ChakraBox from 'components/ChakraBox'
 import GhanaFlag from 'assets/flags/GhanaFlag'
 import Globe from 'assets/flags/Globe'
 import UKFlag from 'assets/flags/UKFlag'
 import USAFLag from 'assets/flags/USAFlag'
 import useCustomColorMode from '../hooks/useCustomColorMode'
+import Ghana from './countries/Ghana'
 
 const LandingPage = () => {
   const navigate = useNavigate()
   const { bg, brand } = useCustomColorMode()
+
+  const location = useLocation()
+  if (location.pathname === '/ghana') {
+    return <Ghana />
+  }
 
   return (
     <Box textAlign="center" fontSize="xl">

@@ -1,5 +1,5 @@
 import { ChakraProvider } from '@chakra-ui/react'
-import { Routes, Route, BrowserRouter, useLocation } from 'react-router-dom'
+import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import theme from './utils/theme'
 import LandingPage from './pages/LandingPage'
 import Ghana from './pages/countries/Ghana'
@@ -11,19 +11,6 @@ import Other from './pages/countries/Other'
 import BackButton from './pages/BackButton'
 
 const App = () => {
-  const location = useLocation()
-  if (location.pathname === '/ghana') {
-    return (
-      <ChakraProvider theme={theme}>
-        <BrowserRouter>
-          <BackButton />
-          <Navigation />
-          <Ghana />
-        </BrowserRouter>
-      </ChakraProvider>
-    )
-  }
-
   return (
     <ChakraProvider theme={theme}>
       <BrowserRouter>
