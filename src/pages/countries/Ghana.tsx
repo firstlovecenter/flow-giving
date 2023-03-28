@@ -27,13 +27,11 @@ const Ghana = () => {
               <Text marginBottom={2} fontSize="2xl">
                 059 304 0443
               </Text>
-              <Text fontWeight="bold" color="#fcb900">
-                Other Networks
+
+              <Text fontWeight="bold" color="blue.200">
+                Other networks can now give to the number above
               </Text>
 
-              <Text marginBottom={5} fontSize="2xl">
-                0243 172 171
-              </Text>
               <Text fontWeight="bold" color="#fcb900" fontSize="medium">
                 Merchant ID
               </Text>
