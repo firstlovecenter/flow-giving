@@ -4,7 +4,7 @@ import React from 'react'
 const PayButton = ({ option }: { option: 'momo' | 'paypal' }) => {
   if (option === 'momo') {
     return (
-      <Link href="https://paystack.com/pay/firstlovecenter">
+      <Link href="https://paystack.com/pay/flow-church">
         <Button colorScheme="yellow" size="lg">
           Give With Mobile Money/Card
         </Button>
