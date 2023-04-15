@@ -33,8 +33,10 @@ const Navigation = () => {
     },
     { name: 'UK', link: '/uk' },
     { name: 'USA', link: '/usa' },
-    { name: 'Other', link: '/other' },
+    { name: 'Other Countries', link: '/other-countries' },
+    { name: 'Online Giving', link: '/online' },
   ]
+
   return (
     <>
       <IconButton

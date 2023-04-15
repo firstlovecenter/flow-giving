@@ -1,6 +1,7 @@
 import { ChakraProvider } from '@chakra-ui/react'
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 import FLCGhana from 'pages/countries/Ghana-FLC'
+import IntlCountries from 'pages/countries/IntlCountries'
 import theme from './utils/theme'
 import LandingPage from './pages/LandingPage'
 import Ghana from './pages/countries/Ghana'
@@ -22,7 +23,8 @@ const App = () => {
           <Route path="/ghana" element={<Ghana />} />
           <Route path="/uk" element={<UK />} />
           <Route path="/usa" element={<USA />} />
-          <Route path="/other" element={<Other />} />
+          <Route path="/other-countries" element={<IntlCountries />} />
+          <Route path="/online" element={<Other />} />
           <Route path="flc-ghana" element={<FLCGhana />} />
           <Route path="*" element={<Ghana />} />
         </Routes>
