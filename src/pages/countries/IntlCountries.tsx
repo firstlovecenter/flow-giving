@@ -39,7 +39,7 @@ const IntlCountries = () => {
               </Text>
             </Box>
           </ChakraBox>
-          <ChakraBox animate={{ x: [-40, 0] }}>
+          {/* <ChakraBox animate={{ x: [-40, 0] }}>
             <Box dropShadow="2xl" bg={bg} padding={6} borderRadius={20}>
               <Text fontSize="2xl" fontWeight="bold">
                 Switzerland
@@ -60,7 +60,7 @@ const IntlCountries = () => {
               <Text marginTop={2}>Birgistrasse 7</Text>
               <Text marginTop={2}>8304 Wallisellen</Text>
             </Box>
-          </ChakraBox>
+          </ChakraBox> */}
         </VStack>
       </Grid>
       <Text color={brand} marginTop={50}>
