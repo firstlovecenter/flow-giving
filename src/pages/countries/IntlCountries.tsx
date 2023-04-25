@@ -39,6 +39,39 @@ const IntlCountries = () => {
               </Text>
             </Box>
           </ChakraBox>
+          <ChakraBox animate={{ x: [-40, 0] }}>
+            <Box dropShadow="2xl" bg={bg} padding={6} borderRadius={20}>
+              <Text fontSize="2xl" fontWeight="bold">
+                Kenya
+              </Text>
+
+              <Text marginTop="20px" fontWeight="bold">
+                Mpesa Paybill Number
+              </Text>
+              <Text
+                fontWeight="bold"
+                color="red.500"
+                fontSize="2xl"
+                marginTop={4}
+              >
+                4113107
+              </Text>
+              <Text fontSize="medium">Account - Offering Description</Text>
+
+              <Text marginTop="20px" fontWeight="bold">
+                Outside Kenya
+              </Text>
+              <Text fontSize="medium">Phone Number</Text>
+              <Text
+                fontWeight="bold"
+                color="red.500"
+                fontSize="2xl"
+                marginTop={4}
+              >
+                +254799 80 20 74
+              </Text>
+            </Box>
+          </ChakraBox>
           {/* <ChakraBox animate={{ x: [-40, 0] }}>
             <Box dropShadow="2xl" bg={bg} padding={6} borderRadius={20}>
               <Text fontSize="2xl" fontWeight="bold">
