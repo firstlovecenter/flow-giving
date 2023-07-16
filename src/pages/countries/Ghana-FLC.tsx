@@ -47,7 +47,7 @@ const FLCGhana = () => {
               </Text>
 
               <Container padding={5}>
-                <PayButton option="momo" />
+                <PayButton option="momo-flc" />
               </Container>
 
               <Text fontWeight="bold">Bank Account</Text>

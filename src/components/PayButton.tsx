@@ -1,7 +1,16 @@
 import { Button, Link } from '@chakra-ui/react'
 import React from 'react'
 
-const PayButton = ({ option }: { option: 'momo' | 'paypal' }) => {
+const PayButton = ({ option }: { option: 'momo' | 'paypal' | 'momo-flc' }) => {
+  if (option === 'momo-flc') {
+    return (
+      <Link href="https://paystack.com/pay/firstlovecenter">
+        <Button colorScheme="yellow" size="lg">
+          Give With Mobile Money/Card
+        </Button>
+      </Link>
+    )
+  }
   if (option === 'momo') {
     return (
       <Link href="https://paystack.com/pay/flow-church">
