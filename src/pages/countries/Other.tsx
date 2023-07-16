@@ -45,18 +45,22 @@ const Other = () => {
                 Bank Account
               </Text>
               <Text fontWeight="bold" color="red.500" fontSize="medium">
-                Stanbic Bank
+                Absa Bank Ghana Ltd
               </Text>
-              <Text fontSize="medium">First Love Church</Text>
+              <Text fontSize="medium">The Flow Church</Text>
               <Text fontWeight="bold" color="red.500" fontSize="3xl">
-                9040010841105
+                0871081972
               </Text>
               <Text fontSize="medium">SWIFT Code:</Text>
               <Text color="red.500" fontWeight="bold" fontSize="2xl">
-                SBICGHAC
+                BARCGHAC
+              </Text>
+              <Text fontSize="medium">Sort Code:</Text>
+              <Text color="red.500" fontWeight="bold" fontSize="2xl">
+                030164
               </Text>
               <Text marginBottom={5} fontSize="medium">
-                Achimota Main Branch
+                Kaneshie Branch
               </Text>
             </Box>
           </ChakraBox>

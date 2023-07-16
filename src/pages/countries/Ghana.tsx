@@ -18,7 +18,7 @@ const Ghana = () => {
           <ChakraBox animate={{ x: [-40, 0] }}>
             <Box dropShadow="2xl" bg={bg} padding={6} borderRadius={20}>
               <Text color={brand} fontWeight="bold">
-                Mobile Money{' '}
+                Mobile Money
               </Text>
               <Text fontWeight="bold" color="#fcb900">
                 MTN
@@ -44,14 +44,14 @@ const Ghana = () => {
 
               <Text fontWeight="bold">Bank Account</Text>
               <Text fontWeight="bold" color="red.500" fontSize="medium">
-                Stanbic Bank
+                Absa Bank Ghana Ltd
               </Text>
-              <Text fontSize="medium">First Love Church</Text>
+              <Text fontSize="medium">The Flow Church</Text>
               <Text fontWeight="bold" color="red.500" fontSize="3xl">
-                9040010841105
+                0871081972
               </Text>
               <Text marginBottom={5} fontSize="medium">
-                Achimota Main Branch
+                Kaneshie Branch
               </Text>
             </Box>
           </ChakraBox>
