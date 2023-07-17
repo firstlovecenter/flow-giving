@@ -27,14 +27,19 @@ const Navigation = () => {
       name: 'Home',
       link: '/',
     },
+    { name: 'Online Giving', link: '/online' },
     {
       name: 'Ghana',
       link: '/ghana',
     },
+    {
+      name: 'Kenya',
+      link: '/kenya',
+    },
     { name: 'UK', link: '/uk' },
     { name: 'USA', link: '/usa' },
-    { name: 'Other Countries', link: '/other-countries' },
-    { name: 'Online Giving', link: '/online' },
+    { name: 'Australia', link: '/australia' },
+    { name: 'Switzerland', link: '/switzerland' },
   ]
 
   return (
