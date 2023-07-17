@@ -1,10 +1,10 @@
-import { Box, Flex, GridItem, Text } from '@chakra-ui/react'
+import { Box, Center, Flex, GridItem, Text } from '@chakra-ui/react'
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import useCustomColorMode from 'hooks/useCustomColorMode'
 import ChakraBox from './ChakraBox'
 
-const MenuCard = ({
+const MenuCardSmall = ({
   label,
   icon,
   link,
@@ -27,16 +27,17 @@ const MenuCard = ({
           bg={bg}
           height="100%"
           width="100%"
-          paddingY={4}
-          paddingX={12}
+          paddingY={5}
+          paddingX={3}
           borderRadius={20}
         >
           <Flex>
             {icon}
-
-            <Text marginTop={5} size="sm" marginLeft={5} fontWeight="bold">
-              {label}
-            </Text>
+            <Center>
+              <Text size="sm" marginLeft={3} fontWeight="bold">
+                {label}
+              </Text>
+            </Center>
           </Flex>
         </Box>
       </ChakraBox>
@@ -44,4 +45,4 @@ const MenuCard = ({
   )
 }
 
-export default MenuCard
+export default MenuCardSmall

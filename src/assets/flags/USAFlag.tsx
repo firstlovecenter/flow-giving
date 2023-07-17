@@ -1,11 +1,12 @@
+/* eslint-disable react/require-default-props */
 import React from 'react'
 
-const USAFLag = () => {
+const USAFLag = ({ width, height }: { width?: string; height?: string }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="60.703"
-      height="60.703"
+      width={width ?? '60.703'}
+      height={height ?? '60.703'}
       version="1.1"
       viewBox="0 0 400 400"
     >
