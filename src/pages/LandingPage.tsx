@@ -34,11 +34,7 @@ const LandingPage = () => {
         <Text marginBottom={10} color={brand}>
           Give a flow offering today!
         </Text>
-        <Center marginBottom={4}>
-          <Grid w="100%" templateColumns="repeat(1, 1fr)" gap={3}>
-            <MenuCard icon={<Globe />} label="Online" link="/online" />
-          </Grid>
-        </Center>
+
         <Center>
           <Grid w="100%" templateColumns="repeat(2, 1fr)" gap={3}>
             <MenuCardSmall
@@ -71,6 +67,11 @@ const LandingPage = () => {
               label="Australia"
               link="/australia"
             />
+          </Grid>
+        </Center>
+        <Center marginBottom={4}>
+          <Grid w="100%" templateColumns="repeat(1, 1fr)" gap={3}>
+            <MenuCard icon={<Globe />} label="All Others" link="/online" />
           </Grid>
         </Center>
       </Grid>
