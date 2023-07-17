@@ -69,7 +69,7 @@ const LandingPage = () => {
             />
           </Grid>
         </Center>
-        <Center marginBottom={4}>
+        <Center marginY={4}>
           <Grid w="100%" templateColumns="repeat(1, 1fr)" gap={3}>
             <MenuCard icon={<Globe />} label="All Others" link="/online" />
           </Grid>
