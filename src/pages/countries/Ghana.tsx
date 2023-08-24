@@ -25,7 +25,7 @@ const Ghana = () => {
               </Text>
 
               <Text marginBottom={2} fontSize="2xl">
-                059 304 0443
+                053 042 9589
               </Text>
 
               <Text fontWeight="bold" color="blue.200">

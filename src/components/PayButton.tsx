@@ -13,7 +13,7 @@ const PayButton = ({ option }: { option: 'momo' | 'paypal' | 'momo-flc' }) => {
   }
   if (option === 'momo') {
     return (
-      <Link href="https://paystack.com/pay/flow-church">
+      <Link href="https://paystack.com/pay/v5gbgd5sk7">
         <Button colorScheme="yellow" size="lg">
           Give With Mobile Money/Card
         </Button>
