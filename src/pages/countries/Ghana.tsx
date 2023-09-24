@@ -36,7 +36,7 @@ const Ghana = () => {
                 Merchant ID
               </Text>
               <Text marginBottom={5} fontSize="medium">
-                5703723
+                570372
               </Text>
               <Container padding={5}>
                 <PayButton option="momo" />
