@@ -25,6 +25,7 @@ const Ghana = () => {
               </Text>
 
               <Text marginBottom={2} fontSize="2xl">
+                {/* 053 042 9589 */}
                 053 042 9589
               </Text>
 
@@ -36,6 +37,7 @@ const Ghana = () => {
                 Merchant ID
               </Text>
               <Text marginBottom={5} fontSize="medium">
+                {/* 830814 */}
                 830814
               </Text>
               <Container padding={5}>
