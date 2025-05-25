@@ -13,6 +13,7 @@ import NigeriaFlag from 'assets/flags/NigeriaFlag'
 import useCustomColorMode from '../hooks/useCustomColorMode'
 import Ghana from './countries/Ghana'
 import FLCGhana from './countries/Ghana-FLC'
+import Nigeria from './countries/Nigeria'
 
 const LandingPage = () => {
   const { brand } = useCustomColorMode()
@@ -24,6 +25,10 @@ const LandingPage = () => {
 
   if (location.pathname === '/flc-ghana') {
     return <FLCGhana />
+  }
+
+  if (location.pathname === '/nigeria') {
+    return <Nigeria />
   }
 
   return (

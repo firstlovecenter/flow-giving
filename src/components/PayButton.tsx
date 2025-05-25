@@ -29,6 +29,9 @@ const PayButton = ({ option }: { option: 'momo' | 'paypal' | 'momo-flc' | 'bank'
       </Link>
     )
   }
+  if (option === 'bank') {
+    return null
+  }
   return null
 }
 
