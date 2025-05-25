@@ -9,10 +9,10 @@ import AustraliaFlag from 'assets/flags/AustraliaFlag'
 import GhanaFlag from 'assets/flags/GhanaFlag'
 import KenyaFlag from 'assets/flags/KenyaFlag'
 import SwitzerlandFlag from 'assets/flags/SwitzerlandFlag'
+import NigeriaFlag from 'assets/flags/NigeriaFlag'
 import useCustomColorMode from '../hooks/useCustomColorMode'
 import Ghana from './countries/Ghana'
 import FLCGhana from './countries/Ghana-FLC'
-import NigeriaFlag from 'assets/flags/NigeriaFlag'
 
 const LandingPage = () => {
   const { brand } = useCustomColorMode()
