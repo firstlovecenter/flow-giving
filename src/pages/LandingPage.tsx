@@ -40,7 +40,7 @@ const LandingPage = () => {
         <Center>
           <Grid w='100%' templateColumns='repeat(2, 1fr)' gap={3}>
             <MenuCardSmall icon={<GhanaFlag width='40' height='40' />} label='Ghana' link='/ghana' />
-            <MenuCardSmall icon={<NigeriaFlag width='40' height='40' />} label='Nigeria' link='/kenya' />
+            <MenuCardSmall icon={<NigeriaFlag width='40' height='40' />} label='Nigeria' link='/nigeria' />
             <MenuCardSmall icon={<KenyaFlag width='40' height='40' />} label='Kenya' link='/kenya' />
             <MenuCardSmall icon={<UKFlag width='40' height='40' />} label='UK' link='/uk' />
             <MenuCardSmall icon={<USAFLag width='40' height='40' />} label='USA' link='/usa' />
