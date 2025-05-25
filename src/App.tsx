@@ -11,6 +11,7 @@ import Navigation from './pages/Navigation'
 import Other from './pages/countries/Other'
 import BackButton from './pages/BackButton'
 import Ghana from './pages/countries/Ghana'
+import Nigeria from './pages/countries/Nigeria'
 import LandingPage from './pages/LandingPage'
 import theme from './utils/theme'
 
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/" element={<LandingPage />} />
           <Route path="/online" element={<Other />} />
           <Route path="/ghana" element={<Ghana />} />
+          <Route path="/nigeria" element={<Nigeria />} />
           <Route path="/uk" element={<UK />} />
           <Route path="/usa" element={<USA />} />
           <Route path="/australia" element={<Australia />} />
