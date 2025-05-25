@@ -12,7 +12,6 @@ import SwitzerlandFlag from 'assets/flags/SwitzerlandFlag'
 import useCustomColorMode from '../hooks/useCustomColorMode'
 import Ghana from './countries/Ghana'
 import FLCGhana from './countries/Ghana-FLC'
-import Nigeria from './countries/Nigeria'
 import NigeriaFlag from 'assets/flags/NigeriaFlag'
 
 const LandingPage = () => {
