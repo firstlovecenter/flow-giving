@@ -1,11 +1,15 @@
 import { Button, Link } from '@chakra-ui/react'
 import React from 'react'
 
-const PayButton = ({ option }: { option: 'momo' | 'paypal' | 'momo-flc' | 'bank' }) => {
+const PayButton = ({
+  option,
+}: {
+  option: 'momo' | 'paypal' | 'momo-flc' | 'bank'
+}) => {
   if (option === 'momo-flc') {
     return (
-      <Link href='https://paystack.com/pay/firstlovecenter'>
-        <Button colorScheme='yellow' size='lg'>
+      <Link href="https://paystack.com/pay/firstlovecenter">
+        <Button colorScheme="yellow" size="lg">
           Give With Mobile Money/Card
         </Button>
       </Link>
@@ -13,8 +17,8 @@ const PayButton = ({ option }: { option: 'momo' | 'paypal' | 'momo-flc' | 'bank'
   }
   if (option === 'momo') {
     return (
-      <Link href='https://paystack.com/pay/v5gbgd5sk7'>
-        <Button colorScheme='yellow' size='lg'>
+      <Link href="https://paystack.com/pay/v5gbgd5sk7">
+        <Button colorScheme="yellow" size="lg">
           Give With Mobile Money/Card
         </Button>
       </Link>
@@ -22,8 +26,8 @@ const PayButton = ({ option }: { option: 'momo' | 'paypal' | 'momo-flc' | 'bank'
   }
   if (option === 'paypal') {
     return (
-      <Link href='https://www.paypal.com/donate/?hosted_button_id=E39VFZ8AR3FBW&source=qr'>
-        <Button colorScheme='twitter' size='lg' marginBottom={10}>
+      <Link href="https://www.paypal.com/donate/?hosted_button_id=E39VFZ8AR3FBW&source=qr">
+        <Button colorScheme="twitter" size="lg" marginBottom={10}>
           Give with PayPal
         </Button>
       </Link>
